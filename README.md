@@ -2,6 +2,9 @@
 
 rn-highlighter is a simple and effective way to highlight text in React Native applications.
 
+![Screenshot_1749759627](https://github.com/user-attachments/assets/282c30de-da57-4ede-bbad-f2e0f7eb176e)
+
+
 ## Installation
 
 ```sh
