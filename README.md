@@ -1,6 +1,6 @@
 # rn-highlighter
 
-rn-highlighter
+rn-highlighter is a simple and effective way to highlight text in React Native applications.
 
 ## Installation
 
@@ -10,14 +10,22 @@ npm install rn-highlighter
 
 ## Usage
 
-
 ```js
-import { multiply } from 'rn-highlighter';
-
-// ...
-
-const result = await multiply(3, 7);
+<Highlighter
+  text="rn-highlighter is a simple and effective way to highlight text in React Native applications."
+  highlight="React Native"
+  highlightStyle={{ backgroundColor: 'orange', fontWeight: 'bold' }}
+  textStyle={{ fontSize: 16 }}
+/>
 ```
+## Props
+
+| Prop             | Type         | Description                            |
+| ---------------- | ------------ | -------------------------------------- |
+| `text`           | `string`     | Full text to display                   |
+| `highlight`      | `string`     | Substring to highlight within the text |
+| `highlightStyle` | `TextStyle?` | Custom style for the highlighted part  |
+| `textStyle`      | `TextStyle?` | Style for the overall text             |
 
 
 ## Contributing

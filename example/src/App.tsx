@@ -1,20 +1,17 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'rn-highlighter';
+import { View } from 'react-native';
+import { Highlighter } from 'rn-highlighter';
 
-const result = multiply(3, 7);
-
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
+    <View style={{ padding: 20, marginTop: 50 }}>
+      <Highlighter
+        text="rn-highlighter is a simple and effective way to highlight text in React Native applications."
+        highlight="React Native"
+        highlightStyle={{ backgroundColor: 'orange', fontWeight: 'bold' }}
+        textStyle={{ fontSize: 18 }}
+      />
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
