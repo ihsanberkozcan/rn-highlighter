@@ -1,6 +1,6 @@
 {
   "name": "rn-highlighter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "rn-highlighter is a simple and effective way to highlight text in React Native applications.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
